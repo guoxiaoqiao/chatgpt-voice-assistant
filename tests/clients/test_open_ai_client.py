@@ -53,7 +53,7 @@ def mock_create_completion_no_responses(**kwargs):
         usage=CompletionUsage(
             completion_tokens=0, prompt_tokens=0, total_tokens=kwargs["max_tokens"]
         ),
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         created=0,
         id="chatcmpl-6Qp9nJjyCZ2UJyE2oXh8HqL5yq2KJ",
         object="chat.completion",
@@ -66,7 +66,7 @@ def mock_create_completion_multiple_responses(**kwargs):
         usage=CompletionUsage(
             completion_tokens=0, prompt_tokens=0, total_tokens=kwargs["max_tokens"]
         ),
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         created=0,
         id="chatcmpl-6Qp9nJjyCZ2UJyE2oXh8HqL5yq2KJ",
         object="chat.completion",
@@ -79,7 +79,7 @@ def mock_create_completion_stop_due_to_length(**kwargs):
         usage=CompletionUsage(
             completion_tokens=0, prompt_tokens=0, total_tokens=kwargs["max_tokens"]
         ),
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         created=0,
         id="chatcmpl-6Qp9nJjyCZ2UJyE2oXh8HqL5yq2KJ",
         object="chat.completion",
